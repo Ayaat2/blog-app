@@ -1,12 +1,49 @@
-# React + Vite
+# 📖 Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Blog Application** built with **React**, **React Router**, **Tailwind CSS**, and **Context API**.  
+It demonstrates blog listing, single blog view, search functionality, and pagination (load more).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📰 **Blog Listing**  
+  Displays a list of blog posts with image, category, title, author, and date.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 **Search Functionality**  
+  Filter blogs dynamically by **title** or **author name**.  
+  If no blog is found, an error message will be displayed.
+
+- 📄 **Single Blog Page**  
+  Clicking on a blog title shows the full article content.
+
+- 📌 **Pagination (Load More Button)**  
+  - Displays 9 blogs per page.  
+  - Loads more blogs when clicking **Load More**.  
+  - Button becomes disabled when no more blogs are available.
+
+- 🎨 **Responsive Design**  
+  - Fully responsive on **Desktop, Tablet, and Mobile**.  
+  - Header and Search Bar adjust to screen size.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Frontend library)
+- **React Router DOM** (Navigation)
+- **Context API** (Global state management)
+- **Tailwind CSS** (Styling)
+
+---
+
+## Install dependencies:
+```
+npm install
+```
+## Run the development server
+```
+npm run dev
+```
+
+
