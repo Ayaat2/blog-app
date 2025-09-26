@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* font family  */
+  --font-sans: "Work Sans", sans-serif;
+  --font-serif: "Source Serif Pro", serif;
+
+  /* colors */
+  --color-primary: #181a2a;
+  --color-secondary-100: #f4f4f5;
+  --color-secondary-400: #97989f;
+  --color-secondary-500: #696a75;
+  --color-secondary-600: #3b3c4a;
+  --color-accent: #3b3c4a;
+  --color-category: #4b6bfb;
+  --color-category-font: #ffffff;
+  --color-category-bg: rgba(75, 107, 251, 0.05);
+  --color-border: #e8e8ea;
+}
